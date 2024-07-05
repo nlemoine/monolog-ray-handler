@@ -1,0 +1,25 @@
+{
+  "name": "n5s/monolog-ray-handler",
+  "description": "Monolog handler for Ray",
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "php": ">=8.1",
+    "monolog/monolog": "^2 || ^3",
+    "spatie/ray": "^1"
+  },
+  "require-dev": {
+    "phpstan/phpstan": "^1.10",
+    "phpunit/phpunit": "^9.6.7"
+},
+  "autoload": {
+    "psr-4": {
+      "n5s\\MonologRayHandler\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+        "n5s\\MonologRayHandler\\Tests\\": "tests"
+    }
+}
+}
